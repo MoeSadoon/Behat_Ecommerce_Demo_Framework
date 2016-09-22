@@ -1,10 +1,21 @@
+#default:
+#  paths:
+#    features: features
+#    bootstrap: %behat.paths.features%/bootstrap
+#  extensions:
+#    Behat\MinkExtension\Extension:
+#      goutte: ~
+#      selenium2: ~
+#
+#
 default:
-  paths:
-    features: features
-    bootstrap: %behat.paths.features%/bootstrap
-  extensions:
-    Behat\MinkExtension\Extension:
-      goutte: ~
-      selenium2: ~
-
+    suites:
+        default:
+            contexts:
+                - FeatureContext
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://automationpractice.com/
+            goutte: ~
+            selenium2: ~
 

@@ -104,7 +104,7 @@
         </trans-unit>
         <trans-unit id="the-checkbox-should-be-checked">
             <source><![CDATA[/^the "(?P<checkbox>(?:[^"]|\\")*)" checkbox should be checked$/]]></source>
-            <target><![CDATA[/^la casilla de selección "(?P<checkbox>[^"]*) debe estar marcada" $/]]></target>
+            <target><![CDATA[/^la casilla de selección "(?P<checkbox>[^"]*)" debe estar marcada$/]]></target>
         </trans-unit>
         <trans-unit id="the-checkbox-should-not-be-checked">
             <source><![CDATA[/^the "(?P<checkbox>(?:[^"]|\\")*)" checkbox should not be checked$/]]></source>
@@ -115,8 +115,8 @@
             <target><![CDATA[/^debo estar en "(?P<page>[^"]+)"$/]]></target>
         </trans-unit>
         <trans-unit id="the-url-should-match">
-            <source><![CDATA[/^the (?i)url(?-i) should match (?P<pattern>"([^"]|\\")*")$/]]></source>
-            <target><![CDATA[/^la URL debe seguir el patrón (?P<pattern>"([^"]|\\")*")$/]]></target>
+            <source><![CDATA[/^the (?i)url(?-i) should match (?P<pattern>"(?:[^"]|\\")*")$/]]></source>
+            <target><![CDATA[/^la URL debe seguir el patrón (?P<pattern>"(?:[^"]|\\")*")$/]]></target>
         </trans-unit>
         <trans-unit id="the-element-should-contain">
             <source><![CDATA[/^the "(?P<element>[^"]*)" element should contain "(?P<value>(?:[^"]|\\")*)"$/]]></source>
