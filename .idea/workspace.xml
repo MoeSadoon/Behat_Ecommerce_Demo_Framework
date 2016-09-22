@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22c7a0b7-fbb7-48ad-9b0c-7c938480064a" name="Default" comment="" />
+    <list default="true" id="22c7a0b7-fbb7-48ad-9b0c-7c938480064a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/features/bootstrap/LoginContext.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/behat.yml" afterPath="$PROJECT_DIR$/behat.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" afterPath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
+    </list>
     <ignored path="Behat_ECommerce_Demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -34,8 +38,8 @@
       <file leaf-file-name="behat.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/behat.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,18 +58,18 @@
       <file leaf-file-name="MinkContext.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/MinkContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="78" column="12" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="12" />
+            <state relative-caret-position="738">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="600">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#7#190#0#PHP" expanded="true" />
               </folding>
@@ -73,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -82,16 +86,6 @@
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginContext.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -105,11 +99,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/behat.yml" />
         <option value="$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/MinkContext.php" />
         <option value="$PROJECT_DIR$/features/fLogin.feature" />
-        <option value="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/behat.yml" />
+        <option value="$PROJECT_DIR$/features/bootstrap/LoginContext.php" />
+        <option value="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
       </list>
     </option>
   </component>
@@ -270,12 +265,12 @@
       <option name="presentableId" value="Default" />
       <updated>1474473786341</updated>
       <workItem from="1474473795116" duration="1133000" />
-      <workItem from="1474534305628" duration="1062000" />
+      <workItem from="1474534305628" duration="4565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2195000" />
+    <option name="totallyTimeSpent" value="5698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="989" extended-state="6" />
@@ -316,26 +311,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/behat.yml">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/MinkContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="78" column="12" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="12" />
+        <state relative-caret-position="738">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/behat.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -350,19 +345,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="e#7#190#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -374,6 +359,16 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#190#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
