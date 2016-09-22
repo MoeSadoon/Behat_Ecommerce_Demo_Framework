@@ -31,7 +31,7 @@ class MinkContext extends RawMinkContext implements TranslatedContextInterface
      */
     public function iAmOnHomepage()
     {
-        $this->getSession()->visit($this->locatePath('/'));
+        $this->getSession()->visit($this->locatePath('http://automationpractice.com/index.php'));
     }
 
     /**
