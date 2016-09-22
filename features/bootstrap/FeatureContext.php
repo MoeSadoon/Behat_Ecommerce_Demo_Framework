@@ -13,28 +13,8 @@ use Behat\Behat\Context\Step;
 class FeatureContext extends MinkContext
 {
 
-    public function __construct(array $parameters)
+    public function __construct()
     {
-        // Initialize your context here
-        // ...
-//        $this->useContext('LoginContext', new LoginContext($parameters));
+        $this->useContext('login_context', new LoginContext());
     }
-
-    /**
-     * @Given /^I enter details$/
-     */
-    public function iEnterDetails()
-    {
-        $this -> fillField("email", "moe@test.com");
-        $this -> fillField("passwd", "testtest");
-    }
-
-    /**
-     * @Then /^I should be on account page$/
-     */
-    public function iShouldBeOnAccountPage()
-    {
-        $this -> assertPageContainsText("My account");
-    }
-
 }

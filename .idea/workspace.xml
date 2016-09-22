@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c7a0b7-fbb7-48ad-9b0c-7c938480064a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/features/bootstrap/LoginContext.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/behat.yml" afterPath="$PROJECT_DIR$/behat.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/bootstrap/LoginContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" afterPath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
     </list>
     <ignored path="Behat_ECommerce_Demo.iws" />
@@ -65,14 +65,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#7#190#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginContext.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,8 +113,8 @@
         <option value="$PROJECT_DIR$/features/fLogin.feature" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/behat.yml" />
-        <option value="$PROJECT_DIR$/features/bootstrap/LoginContext.php" />
         <option value="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
+        <option value="$PROJECT_DIR$/features/bootstrap/LoginContext.php" />
       </list>
     </option>
   </component>
@@ -265,12 +275,12 @@
       <option name="presentableId" value="Default" />
       <updated>1474473786341</updated>
       <workItem from="1474473795116" duration="1133000" />
-      <workItem from="1474534305628" duration="4565000" />
+      <workItem from="1474534305628" duration="5485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5698000" />
+    <option name="totallyTimeSpent" value="6618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="989" extended-state="6" />
@@ -343,14 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -364,11 +366,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#7#190#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
