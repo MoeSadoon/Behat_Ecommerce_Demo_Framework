@@ -8,8 +8,8 @@ Feature: Sending a contact form
     Given I am on the homepage
     When I follow "Contact Us"
     And I fill in form with details
-    |Subject Heading |Email Address| Message|
-    |Customer Service | moe@test.com | Hello |
+      | Subject Heading  | Email Address | Message |
+      | Customer service | moe@test.com  | Hello   |
     And I press "Send"
     Then I should see message confirmation message
 

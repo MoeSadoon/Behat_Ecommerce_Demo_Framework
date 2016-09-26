@@ -33,9 +33,10 @@ class FeatureContext extends MinkContext implements \Behat\Behat\Context\Snippet
     public function iFillInFormWithDetails(TableNode $table)
     {
         $row = $table->getRow(1);
-        $this-> selectOption("id_contact","Customer service");
-        $this -> fillField("email", "moe@test.com");
-        $this -> fillField("message", "hello");
+        echo($row[0]);
+        $this-> selectOption("id_contact",$row[0]);
+        $this -> fillField("email", $row[1]);
+        $this -> fillField("message", $row[2]);
     }
 
     /**
