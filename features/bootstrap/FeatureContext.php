@@ -30,20 +30,20 @@ class FeatureContext extends MinkContext implements \Behat\Behat\Context\Snippet
     /**
      * @When I fill in form with details
      */
-    public function iFillInFormWithDetails(TableNode $table)
-    {
-        $row = $table->getRow(1);
-        $this-> selectOption("id_contact",$row[0]);
-        $this -> fillField("email", $row[1]);
-        $this -> fillField("message", $row[2]);
-    }
-
-    /**
-     * @Then I should see message confirmation message
-     */
-    public function iShouldSeeMessageConfirmationMessage()
-    {
-        $this -> assertPageContainsText("Your message has been successfully sent to our team.");
-    }
+//    public function iFillInFormWithDetails(TableNode $table)
+//    {
+//        $row = $table->getRow(1);
+//        $this-> selectOption("id_contact",$row[0]);
+//        $this -> fillField("email", $row[1]);
+//        $this -> fillField("message", $row[2]);
+//    }
+//
+//    /**
+//     * @Then I should see message confirmation message
+//     */
+//    public function iShouldSeeMessageConfirmationMessage()
+//    {
+//        $this -> assertPageContainsText("Your message has been successfully sent to our team.");
+//    }
 
 }

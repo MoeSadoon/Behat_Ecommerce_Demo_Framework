@@ -4,6 +4,7 @@ default:
             contexts:
                 - FeatureContext
                 - LoginContext
+                - ContactContext
     extensions:
         Behat\MinkExtension:
             base_url: http://automationpractice.com/
