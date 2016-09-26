@@ -14,3 +14,7 @@ Feature: Sending a contact form
     Then I should see message confirmation message
 
 
+#  Scenario: Sending form as logged in user
+#    Given I am on the homepage
+#    When I log in with my details
+#    |u

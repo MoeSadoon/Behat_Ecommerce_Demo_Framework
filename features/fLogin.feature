@@ -8,6 +8,8 @@ Feature: Logging in
     Given I am on the homepage
     When I follow "Sign in"
     And I enter details
+      | username     | password |
+      | moe@test.com | testtest |
     And I press "Sign in"
     Then I should be on account page
 

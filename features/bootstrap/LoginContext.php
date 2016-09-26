@@ -1,14 +1,16 @@
 <?php
 use Behat\MinkExtension\Context\RawMinkContext;
+use Behat\Gherkin\Node\TableNode;
 class LoginContext extends RawMinkContext
 {
     /**
      * @Given /^I enter details$/
      */
-    public function iEnterDetails()
+    public function iEnterDetails(TableNode $table)
     {
-        $this -> page() -> fillField("email", "moe@test.com");
-        $this -> page() -> fillField("passwd", "testtest");
+        $details = $table ->getRow(1);
+        $this -> page() -> fillField("email", $details[0]);
+        $this -> page() -> fillField("passwd", $details[1]);
     }
 
     /**
