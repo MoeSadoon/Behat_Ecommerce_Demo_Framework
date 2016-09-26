@@ -8,9 +8,9 @@ class LoginContext extends RawMinkContext
      */
     public function iEnterDetails(TableNode $table)
     {
-        $details = $table ->getRow(1);
-        $this -> page() -> fillField("email", $details[0]);
-        $this -> page() -> fillField("passwd", $details[1]);
+        $data = $table ->getRow(1);
+        $this -> page() -> fillField("email", $data[0]);
+        $this -> page() -> fillField("passwd", $data[1]);
     }
 
     /**
@@ -20,5 +20,20 @@ class LoginContext extends RawMinkContext
     {
         $this -> assertSession() -> pageTextContains(("My account"));
     }
+
+    /**
+     *This is is a encapsulated log in method to use for other feature contexts where logging in
+     * is a prerequisite
+     * @Given I am logged in as user
+     */
+    public function iAmLoggedInAs(TableNode $table)
+    {
+        $data = $table -> getRow(0);
+        $this -> page() -> clickLink("Sign in");
+        $this -> page() -> fillField("email", $data[0]);
+        $this -> page() -> fillField("passwd", $data[1]);
+        $this -> page() -> pressButton("Sign in");
+    }
+
 
 }

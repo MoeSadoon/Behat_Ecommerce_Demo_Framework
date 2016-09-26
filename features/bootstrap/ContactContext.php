@@ -17,9 +17,9 @@ class ContactContext extends RawMinkContext
     }
 
     /**
-     * @When I fill in form with details as guest
+     * @When I fill in form with details as user
      */
-    public function iFillInFormWithDetailsAsGuest(TableNode $table)
+    public function iFillInFormWithDetailsAsUser(TableNode $table)
     {
         $row = $table-> getRow(1);
         $this -> page() -> selectFieldOption("id_contact",$row[0]);

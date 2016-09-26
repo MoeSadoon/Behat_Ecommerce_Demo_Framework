@@ -17,13 +17,10 @@ Feature: Sending a contact form
   @javascript
   Scenario: Sending form as logged in user
     Given I am on the homepage
-    When I follow "Sign in"
-    And I enter details
-      | username     | password |
+    And I am logged in as user
       | moe@test.com | testtest |
-    And I press "Sign in"
     When I follow "Contact Us"
-    And I fill in form with details as guest
+    And I fill in form with details as user
       | Subject Heading  | Message |
       | Customer service | Hello   |
     And I press "Send"

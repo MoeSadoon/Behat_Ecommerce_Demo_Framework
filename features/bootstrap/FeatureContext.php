@@ -16,7 +16,4 @@ class FeatureContext extends MinkContext implements \Behat\Behat\Context\Snippet
     public function tearDown(){
         $this -> getSession() -> stop();
     }
-
-    //Whole point of this class is to link to the MinkContext step definitions
-    //I could just chuck in MinkContext here but want to stick to convention so kept a featurecontext class
 }
