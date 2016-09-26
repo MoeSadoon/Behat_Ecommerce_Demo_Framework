@@ -56,9 +56,13 @@ class RawMinkContext implements MinkAwareContext
         return $this->mink;
     }
 
+    /**
+     * this ensures that every subcontext class can use the page() function to access page elements
+     * eg instead of doing $this -> getSession() -> getPage() -> fillField("name", "Moe")
+     * You can now just do $this -> page() -> fillField("name", "Moe")
+     */
     public function page(){
         return $this -> getSession() -> getPage();
-
     }
 
     /**

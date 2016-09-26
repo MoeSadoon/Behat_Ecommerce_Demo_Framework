@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c7a0b7-fbb7-48ad-9b0c-7c938480064a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/bootstrap/ContactContext.php" afterPath="$PROJECT_DIR$/features/bootstrap/ContactContext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" afterPath="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/bootstrap/LoginContext.php" afterPath="$PROJECT_DIR$/features/bootstrap/LoginContext.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/RawMinkContext.php" afterPath="$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/RawMinkContext.php" />
@@ -41,7 +40,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1474890007821" expanded="true" signature="13:156" ph="suites: &lt;1 key&gt;" />
+                <marker date="1474890007821" expanded="true" signature="29:156" ph="default: &lt;1 key&gt;" />
+                <marker date="1474890007821" expanded="true" signature="50:156" ph="contexts: &lt;3 items&gt;" />
+                <marker date="1474890007821" expanded="true" signature="142:156" ph="ContactCon..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeatureContext.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#7#77#0#PHP" expanded="true" />
               </folding>
@@ -91,8 +95,8 @@
       <file leaf-file-name="LoginContext.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -101,18 +105,18 @@
       <file leaf-file-name="RawMinkContext.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/RawMinkContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactContext.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactContext.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/bootstrap/ContactContext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#6#53#0#PHP" expanded="true" />
               </folding>
@@ -147,10 +151,10 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/features/fContact.feature" />
         <option value="$PROJECT_DIR$/behat.yml" />
-        <option value="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
+        <option value="$PROJECT_DIR$/features/bootstrap/ContactContext.php" />
         <option value="$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/RawMinkContext.php" />
         <option value="$PROJECT_DIR$/features/bootstrap/LoginContext.php" />
-        <option value="$PROJECT_DIR$/features/bootstrap/ContactContext.php" />
+        <option value="$PROJECT_DIR$/features/bootstrap/FeatureContext.php" />
       </list>
     </option>
   </component>
@@ -477,12 +481,12 @@
       <workItem from="1474534305628" duration="5485000" />
       <workItem from="1474552660252" duration="1237000" />
       <workItem from="1474642651586" duration="1236000" />
-      <workItem from="1474879027173" duration="12764000" />
+      <workItem from="1474879027173" duration="13617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21865000" />
+    <option name="totallyTimeSpent" value="22718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2023" y="106" width="1920" height="989" extended-state="0" />
@@ -535,7 +539,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474890007821" expanded="true" signature="13:156" ph="suites: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="29:156" ph="default: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="50:156" ph="contexts: &lt;3 items&gt;" />
+            <marker date="1474890007821" expanded="true" signature="142:156" ph="ContactCon..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +613,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474890007821" expanded="true" signature="13:156" ph="suites: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="29:156" ph="default: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="50:156" ph="contexts: &lt;3 items&gt;" />
+            <marker date="1474890007821" expanded="true" signature="142:156" ph="ContactCon..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -673,7 +687,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474890007821" expanded="true" signature="13:156" ph="suites: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="29:156" ph="default: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="50:156" ph="contexts: &lt;3 items&gt;" />
+            <marker date="1474890007821" expanded="true" signature="142:156" ph="ContactCon..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +753,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474890007821" expanded="true" signature="13:156" ph="suites: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="29:156" ph="default: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="50:156" ph="contexts: &lt;3 items&gt;" />
+            <marker date="1474890007821" expanded="true" signature="142:156" ph="ContactCon..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -795,7 +819,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474890007821" expanded="true" signature="13:156" ph="suites: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="29:156" ph="default: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="50:156" ph="contexts: &lt;3 items&gt;" />
+            <marker date="1474890007821" expanded="true" signature="142:156" ph="ContactCon..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -907,42 +936,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/RawMinkContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="40" />
           <folding>
-            <element signature="e#7#77#0#PHP" expanded="true" />
+            <marker date="1474890007821" expanded="true" signature="13:156" ph="suites: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="29:156" ph="default: &lt;1 key&gt;" />
+            <marker date="1474890007821" expanded="true" signature="50:156" ph="contexts: &lt;3 items&gt;" />
+            <marker date="1474890007821" expanded="true" signature="142:156" ph="ContactCon..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/bootstrap/ContactContext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding>
             <element signature="e#6#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/behat/mink-extension/src/Behat/MinkExtension/Context/RawMinkContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="61" column="70" selection-start-line="61" selection-start-column="70" selection-end-line="61" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/bootstrap/LoginContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/bootstrap/FeatureContext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
