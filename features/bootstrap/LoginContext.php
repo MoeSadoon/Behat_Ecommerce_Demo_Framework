@@ -7,8 +7,9 @@ class LoginContext extends RawMinkContext
      */
     public function iEnterDetails()
     {
-        $this -> getSession() -> getPage() -> fillField("email", "moe@test.com");
-        $this -> getSession() -> getPage() -> fillField("passwd", "testtest");
+
+        $this -> page() -> fillField("email", "moe@test.com");
+        $this -> page() -> fillField("passwd", "testtest");
     }
 
     /**

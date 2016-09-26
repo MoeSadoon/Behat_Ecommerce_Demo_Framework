@@ -9,10 +9,11 @@ class ContactContext extends RawMinkContext
      */
     public function iFillInFormWithDetails(TableNode $table)
     {
+
         $row = $table-> getRow(1);
-        $this -> getSession() -> getPage() -> selectFieldOption("id_contact",$row[0]);
-        $this -> getSession() -> getPage() -> fillField("email", $row[1]);
-        $this -> getSession() -> getPage() -> fillField("message", $row[2]);
+        $this -> page() -> selectFieldOption("id_contact",$row[0]);
+        $this -> page() -> fillField("email", $row[1]);
+        $this -> page() -> fillField("message", $row[2]);
     }
 
     /**

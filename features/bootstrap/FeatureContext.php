@@ -8,42 +8,6 @@ use Behat\Behat\Context\Context;
 
 class FeatureContext extends MinkContext implements \Behat\Behat\Context\SnippetAcceptingContext
 {
-
-
-//    /**
-//     * @Given /^I enter details$/
-//     */
-//    public function iEnterDetails()
-//    {
-//        $this -> fillField("email", "moe@test.com");
-//        $this -> fillField("passwd", "testtest");
-//    }
-//
-//    /**
-//     * @Then /^I should be on account page$/
-//     */
-//    public function iShouldBeOnAccountPage()
-//    {
-//        $this -> assertPageContainsText("My account");
-//    }
-
-    /**
-     * @When I fill in form with details
-     */
-//    public function iFillInFormWithDetails(TableNode $table)
-//    {
-//        $row = $table->getRow(1);
-//        $this-> selectOption("id_contact",$row[0]);
-//        $this -> fillField("email", $row[1]);
-//        $this -> fillField("message", $row[2]);
-//    }
-//
-//    /**
-//     * @Then I should see message confirmation message
-//     */
-//    public function iShouldSeeMessageConfirmationMessage()
-//    {
-//        $this -> assertPageContainsText("Your message has been successfully sent to our team.");
-//    }
-
+    //Whole point of this class is to link to the MinkContext step definitions
+    //I could just chuck in MinkContext here but want to stick to convention so kept a featurecontext class
 }

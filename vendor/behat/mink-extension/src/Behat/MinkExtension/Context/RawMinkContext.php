@@ -24,6 +24,7 @@ class RawMinkContext implements MinkAwareContext
 {
     private $mink;
     private $minkParameters;
+    protected $page;
 
     /**
      * Sets Mink instance.
@@ -35,10 +36,13 @@ class RawMinkContext implements MinkAwareContext
         $this->mink = $mink;
     }
 
+
     /**
      * Returns Mink instance.
      *
      * @return Mink
+     *
+     *
      */
     public function getMink()
     {
@@ -50,6 +54,11 @@ class RawMinkContext implements MinkAwareContext
         }
 
         return $this->mink;
+    }
+
+    public function page(){
+        return $this -> getSession() -> getPage();
+
     }
 
     /**
