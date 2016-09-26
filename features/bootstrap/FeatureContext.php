@@ -10,22 +10,22 @@ class FeatureContext extends MinkContext implements \Behat\Behat\Context\Snippet
 {
 
 
-    /**
-     * @Given /^I enter details$/
-     */
-    public function iEnterDetails()
-    {
-        $this -> fillField("email", "moe@test.com");
-        $this -> fillField("passwd", "testtest");
-    }
-
-    /**
-     * @Then /^I should be on account page$/
-     */
-    public function iShouldBeOnAccountPage()
-    {
-        $this -> assertPageContainsText("My account");
-    }
+//    /**
+//     * @Given /^I enter details$/
+//     */
+//    public function iEnterDetails()
+//    {
+//        $this -> fillField("email", "moe@test.com");
+//        $this -> fillField("passwd", "testtest");
+//    }
+//
+//    /**
+//     * @Then /^I should be on account page$/
+//     */
+//    public function iShouldBeOnAccountPage()
+//    {
+//        $this -> assertPageContainsText("My account");
+//    }
 
     /**
      * @When I fill in form with details
@@ -33,7 +33,6 @@ class FeatureContext extends MinkContext implements \Behat\Behat\Context\Snippet
     public function iFillInFormWithDetails(TableNode $table)
     {
         $row = $table->getRow(1);
-        echo($row[0]);
         $this-> selectOption("id_contact",$row[0]);
         $this -> fillField("email", $row[1]);
         $this -> fillField("message", $row[2]);
