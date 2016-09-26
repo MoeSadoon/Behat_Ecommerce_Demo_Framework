@@ -9,10 +9,6 @@ use Behat\Behat\Context\Context;
 class FeatureContext extends MinkContext
 {
 
-//    public function __construct()
-//    {
-//        $this->useContext('login_context', new LoginContext());
-//    }
 
     /**
      * @Given /^I enter details$/
