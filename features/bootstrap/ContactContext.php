@@ -17,6 +17,17 @@ class ContactContext extends RawMinkContext
     }
 
     /**
+     * @When I fill in form with details as guest
+     */
+    public function iFillInFormWithDetailsAsGuest(TableNode $table)
+    {
+        $row = $table-> getRow(1);
+        $this -> page() -> selectFieldOption("id_contact",$row[0]);
+        $this -> page() -> fillField("message", $row[1]);
+    }
+
+
+    /**
      * @Then I should see message confirmation message
      */
     public function iShouldSeeMessageConfirmationMessage()
