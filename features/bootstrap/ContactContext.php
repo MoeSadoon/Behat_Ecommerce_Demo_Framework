@@ -29,8 +29,7 @@ class ContactContext extends RawMinkContext
     public function iFillInFormWithDetailsAsUser(TableNode $table)
     {
         $row = $table-> getRow(1);
-        $this -> page() -> selectFieldOption("id_contact",$row[0]);
-        $this -> page() -> fillField("message", $row[1]);
+        $this -> contactPage -> fill_in_details_as_user($row[0],$row[1]);
     }
 
 
@@ -39,7 +38,7 @@ class ContactContext extends RawMinkContext
      */
     public function iShouldSeeMessageConfirmationMessage()
     {
-        $this -> assertSession() -> pageTextContains("Your message has been successfully sent to our team.");
+        $this -> contactPage -> messageConfirmation();
     }
 
 }
